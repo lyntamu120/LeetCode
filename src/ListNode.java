@@ -13,7 +13,7 @@ public class ListNode {
             System.out.print(head.val + "->");
             head = head.next;
         }
-        System.out.print("null");
+        System.out.println("null");
     }
 
     public static ListNode array2List(int[] array) {

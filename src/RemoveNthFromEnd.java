@@ -23,5 +23,9 @@ public class RemoveNthFromEnd {
         ListNode l1 = ListNode.array2List(new int[]{1, 2, 3, 4, 5});
         ListNode l1Removed = rnf.removeNthFromEnd(l1, 2);
         ListNode.printList(l1Removed);
+
+        ListNode l2 = ListNode.array2List(new int[]{1});
+        ListNode l2Removed = rnf.removeNthFromEnd(l2, 1);
+        ListNode.printList(l2Removed);
     }
 }
